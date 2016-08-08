@@ -1,0 +1,16 @@
+PODS:
+  - AZStackSDK_CocoaPods (0.1.0)
+
+DEPENDENCIES:
+  - AZStackSDK_CocoaPods (from `../`)
+
+EXTERNAL SOURCES:
+  AZStackSDK_CocoaPods:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AZStackSDK_CocoaPods: afff6e53cb1665333f61f894ee2acbf9aa32b642
+
+PODFILE CHECKSUM: c9e5c137bd23780f6030ac35fb6261fae3409e35
+
+COCOAPODS: 1.1.0.beta.1

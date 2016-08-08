@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A85C43E0462B59C7801E78 /* Pods_AZStackSDK_CocoaPods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C975E3E1B6D536B1EF0B17FC /* Pods_AZStackSDK_CocoaPods_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,13 +15,13 @@
 		6003F59E195388D20070C39A /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AZAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* AZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* AZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7C5F1B2EEEE37354EC1010BA /* Pods_AZStackSDK_CocoaPods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738838EBA527BCDED9F79995 /* Pods_AZStackSDK_CocoaPods_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BF73D4511D5890E400ECB93F /* AZStackSDK_CocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF73D4501D5890E400ECB93F /* AZStackSDK_CocoaPods.framework */; };
+		BF73D4521D5890E400ECB93F /* AZStackSDK_CocoaPods.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF73D4501D5890E400ECB93F /* AZStackSDK_CocoaPods.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +33,20 @@
 			remoteInfo = AZStackSDK_CocoaPods;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF73D4531D5890E400ECB93F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF73D4521D5890E400ECB93F /* AZStackSDK_CocoaPods.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0EDA0D6EB7099F6CDC655BEB /* Pods-AZStackSDK_CocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZStackSDK_CocoaPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZStackSDK_CocoaPods_Example/Pods-AZStackSDK_CocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,16 +65,14 @@
 		6003F5A6195388D20070C39A /* AZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* AZStackSDK_CocoaPods_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZStackSDK_CocoaPods_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		738838EBA527BCDED9F79995 /* Pods_AZStackSDK_CocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZStackSDK_CocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96039E39E5A421DF0F75539C /* Pods-AZStackSDK_CocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZStackSDK_CocoaPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZStackSDK_CocoaPods_Tests/Pods-AZStackSDK_CocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CE0954828AB6BFEF747E68F /* AZStackSDK_CocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AZStackSDK_CocoaPods.podspec; path = ../AZStackSDK_CocoaPods.podspec; sourceTree = "<group>"; };
-		C975E3E1B6D536B1EF0B17FC /* Pods_AZStackSDK_CocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZStackSDK_CocoaPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF73D4501D5890E400ECB93F /* AZStackSDK_CocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AZStackSDK_CocoaPods.framework; path = "/Users/Phu/Library/Developer/Xcode/DerivedData/AZStackSDK_CocoaPods-hjdyhbrcwnnlnfcgryoksfwtvipq/Build/Products/Debug-iphoneos/AZStackSDK_CocoaPods/AZStackSDK_CocoaPods.framework"; sourceTree = "<absolute>"; };
 		CCCB645DB00F386EE500458B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E450DA9401031ACDBD9B4859 /* Pods-AZStackSDK_CocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZStackSDK_CocoaPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZStackSDK_CocoaPods_Tests/Pods-AZStackSDK_CocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F21FA1DC9AE45ABDF5289D5A /* Pods-AZStackSDK_CocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZStackSDK_CocoaPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZStackSDK_CocoaPods_Example/Pods-AZStackSDK_CocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				36A85C43E0462B59C7801E78 /* Pods_AZStackSDK_CocoaPods_Example.framework in Frameworks */,
+				BF73D4511D5890E400ECB93F /* AZStackSDK_CocoaPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7C5F1B2EEEE37354EC1010BA /* Pods_AZStackSDK_CocoaPods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +116,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				BF73D4501D5890E400ECB93F /* AZStackSDK_CocoaPods.framework */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for AZStackSDK_CocoaPods */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -131,9 +141,6 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C975E3E1B6D536B1EF0B17FC /* Pods_AZStackSDK_CocoaPods_Example.framework */,
-				738838EBA527BCDED9F79995 /* Pods_AZStackSDK_CocoaPods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 				6003F588195388D20070C39A /* Resources */,
 				B1A5B138A23A196D5FBF7A3A /* [CP] Embed Pods Frameworks */,
 				77AD2ADED072C9CC724D7A75 /* [CP] Copy Pods Resources */,
+				BF73D4531D5890E400ECB93F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -513,9 +521,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AZStackSDK_CocoaPods",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AZStackSDK_CocoaPods/AZStackSDK_CocoaPods-Prefix.pch";
 				INFOPLIST_FILE = "AZStackSDK_CocoaPods/AZStackSDK_CocoaPods-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,9 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AZStackSDK_CocoaPods",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AZStackSDK_CocoaPods/AZStackSDK_CocoaPods-Prefix.pch";
 				INFOPLIST_FILE = "AZStackSDK_CocoaPods/AZStackSDK_CocoaPods-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

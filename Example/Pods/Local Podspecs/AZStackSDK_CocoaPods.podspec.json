@@ -1,0 +1,22 @@
+{
+  "name": "AZStackSDK_CocoaPods",
+  "version": "0.1.0",
+  "summary": "A short description of AZStackSDK_CocoaPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AZStackSDK_CocoaPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AZStack": "huy@azstack.co"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AZStackSDK_CocoaPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AZStackSDK_CocoaPods/Classes/**/*"
+}

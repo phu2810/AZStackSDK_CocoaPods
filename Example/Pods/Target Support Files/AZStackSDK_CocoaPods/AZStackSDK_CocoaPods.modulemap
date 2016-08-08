@@ -1,0 +1,6 @@
+framework module AZStackSDK_CocoaPods {
+  umbrella header "AZStackSDK_CocoaPods-umbrella.h"
+
+  export *
+  module * { export * }
+}
