@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AZStackSDK_CocoaPods_Example' do
+  pod 'AZStackSDK_CocoaPods', :path => '../'
+
+  target 'AZStackSDK_CocoaPods_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
